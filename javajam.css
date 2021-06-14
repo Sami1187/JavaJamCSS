@@ -1,44 +1,55 @@
-body {             /* fonts used as given in textbook */
-    font-family: Arial, verdana, sans-serif; 
+body {
+    /* fonts used as given in textbook */
+    font-family: Arial, verdana, sans-serif;
     color: whitesmoke;
     text-align: center;
     background-image: url("Images/JJ15.jpg");
     background-size: cover;
-    
+
 }
 
 
 h1 {
-    margin-inline-start:  270px;
-    margin-inline-end:   300px;
+    background-color: #a14d4d;
+    margin-inline-start: 270px;
+    margin-inline-end: 300px;
     color: whitesmoke;
     border-style: groove;
     border-width: 10px;
     border-color: whitesmoke;
-    line-height: 200%;        /* 200% line height */
+    line-height: 200%;
+    /* 200% line height */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-indent: 1px;
     text-shadow: 3px 3px 5px #000000;
-    text-align:center;
+    text-align: center;
 
 }
 
-nav                       /*centered, bold text*/
-{ font-weight: bold;
-    text-align:center;
+nav
+
+/*centered, bold text*/
+    {
+    font-weight: bold;
+    text-align: center;
     word-spacing: 1em;
     text-indent: 1px;
     text-shadow: 3px 3px 5px #8f7b7b;
 }
 
-footer {                  /*background color, small font size (.60em), italics, and centered text*/
+footer {
+    /*background color, small font size (.60em), italics, and centered text*/
+    background-color: #a14d4d;
+    margin-inline-start: 270px;
+    margin-inline-end: 300px;
     color: whitesmoke;
     font-size: .60em;
     font-style: italic;
-  text-align: center;
+    text-align: center;
     text-decoration-line: underline;
     text-indent: 1px;
     text-shadow: 3px 3px 5px #000000;
+
 }
 
 h2 {
@@ -56,6 +67,7 @@ ul {
     text-indent: 1px;
     text-shadow: 3px 3px 5px #000000;
 }
+
 a {
     color: rgb(0, 0, 0);
     text-align: justify;
@@ -75,13 +87,13 @@ a:hover {
 
 p {
     color: whitesmoke;
-   text-align: center;
+    text-align: center;
     font-size: .70em;
     text-indent: 1px;
     text-shadow: 3px 3px 5px #000000;
 }
 
-#wrapper{
+.wrapper {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
